@@ -82,7 +82,7 @@
     width: 200px;
 }
 
-.nav-bar{
+.nav-bar {
     border-bottom: 2px solid grey;
 }
 
@@ -96,9 +96,9 @@ nav ul li {
     list-style: none;
 }
 
-nav ul li:hover{
+nav ul li:hover {
     background-color: #FEAF00;
-    
+
 }
 
 nav ul li a {
@@ -106,126 +106,146 @@ nav ul li a {
     text-decoration: none;
 }
 
-.nav-bar .fa{
+.nav-bar .fa {
     font-size: 19px;
 }
 
 
 /*........Student section css......... */
-.d-student{
+.d-student {
     background: #F0F9FF;
     border-radius: 12px;
     height: 157px;
     margin: 12px;
 }
 
-.d-student .fa{
+.d-student .fa {
     color: #74C1ED;
     font-size: 43px;
     margin: 12px 0 0 12px;
 }
 
-.d-student p{
+.d-student p {
     padding-top: 8px;
     font-size: 14px;
     padding-left: 12px;
     font-weight: 500;
 }
 
-.d-student h4{
-   float: right;
-   padding-top: 8px;
-   padding-right: 16px;
+.d-student h4 {
+    float: right;
+    padding-top: 8px;
+    padding-right: 16px;
 }
 
 /*.... Course section CSS...... */
 
-.d-course{
+.d-course {
     border-radius: 12px;
     background: #FEF6FB;
     height: 157px;
     margin: 12px;
 }
 
-.d-course .fa{
+.d-course .fa {
     color: #EE95C5;
     font-size: 43px;
     margin: 12px 0 0 12px;
 }
 
-.d-course p{
+.d-course p {
     padding-top: 8px;
     font-size: 14px;
     padding-left: 12px;
     font-weight: 500;
 }
 
-.d-course h4{
-   float: right;
-   padding-top: 8px;
-   padding-right: 16px;
+.d-course h4 {
+    float: right;
+    padding-top: 8px;
+    padding-right: 16px;
 }
 
 
 /*.... Payment section CSS...... */
 
-.d-payment{
+.d-payment {
     border-radius: 12px;
     background: #FEFBEC;
     height: 157px;
     margin: 12px;
 }
 
-.d-payment .fa{
+.d-payment .fa {
     color: #F6C762;
     font-size: 43px;
     margin: 12px 0 0 12px;
 }
 
-.d-payment p{
+.d-payment p {
     padding-top: 8px;
     font-size: 14px;
     padding-left: 12px;
     font-weight: 500;
 }
 
-.d-payment h4{
-   float: right;
-   padding-top: 8px;
-   padding-right: 16px;
+.d-payment h4 {
+    float: right;
+    padding-top: 8px;
+    padding-right: 16px;
 }
-.d-payment h4 span{
-   font-size: 14px;
+
+.d-payment h4 span {
+    font-size: 14px;
 }
 
 
 /*.... User section CSS...... */
 
-.d-user{
+.d-user {
     background: linear-gradient(110.42deg, #FEAF00 18.27%, #F8D442 91.84%);
     border-radius: 12px;
     height: 157px;
     margin: 12px;
 }
 
-.d-user .fa{
+.d-user .fa {
     color: #FFFFFF;
     font-size: 43px;
     margin: 12px 0 0 12px;
 }
 
-.d-user p{
+.d-user p {
     padding-top: 8px;
     font-size: 14px;
     padding-left: 12px;
     font-weight: 500;
 }
 
-.d-user h4{
-   float: right;
-   padding-top: 8px;
-   padding-right: 16px;
+.d-user h4 {
+    float: right;
+    padding-top: 8px;
+    padding-right: 16px;
 }
 
 
+/* ..........Table formate css........... */
 
+.fa-sort{
+    position: absolute;
+    left: 85.99%;
+    top: 8.45%;
+    font-size: 27px;
+    color: #FEAF00;
+}
+.fa-sort, 
+.fa-trash,
+.fa-pen {
+    color: #FEAF00;
+}
+
+.btn-primary {
+    background-color: #FEAF00 !important;
+    border: none;
+    padding: 12px;
+}
